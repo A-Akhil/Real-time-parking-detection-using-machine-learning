@@ -53,7 +53,7 @@ while True:
     cv2.polylines(frame,[np.array(area2,np.int32)],True,(0,255,0),2)
     cv2.polylines(frame,[np.array(area3,np.int32)],True,(0,255,0),2)
     cv2.polylines(frame,[np.array(area4,np.int32)],True,(0,255,0),2)
-    a=110-(len(list)+40)
+    a=110-(len(list))
     cv2.putText(frame, "Remaining Slot "+str(a), (74,32), cv2.FONT_HERSHEY_PLAIN, 2, (0, 255, 0), 2)
     cv2.imshow("FRAME", frame)
     cv2.setMouseCallback("FRAME", POINTS)
