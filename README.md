@@ -1,4 +1,4 @@
-**Parking Lot Detection System using YOLOv5**
+# Parking Lot Detection System using YOLOv5
 
 This system uses the YOLOv5 object detection algorithm to detect and count the number of cars parked in a parking lot. It can be used in various scenarios such as automated parking management systems, parking lot occupancy detection, etc.
 
